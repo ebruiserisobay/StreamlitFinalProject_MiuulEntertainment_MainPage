@@ -6,7 +6,11 @@ import requests
 
 
 st.set_page_config(layout= 'wide', page_title = 'Miuultainment',page_icon="🤖")
-st.image('2.png')
+
+# PNG dosyasının yolu
+image_path = '2.png'
+# Görüntüyü yükle ve göster
+image = Image.open(image_path)
 
 ######################################## HOME ANA BANNER BASLIK ########################################
 
