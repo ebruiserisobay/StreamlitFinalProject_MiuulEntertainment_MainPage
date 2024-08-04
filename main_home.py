@@ -4,7 +4,7 @@ import base64
 from io import BytesIO
 import requests
 
-st.image(2.png')
+st.image('2.png')
 st.set_page_config(layout= 'wide', page_title = 'Miuultainment',page_icon="🤖")
 
 ######################################## HOME ANA BANNER BASLIK ########################################
