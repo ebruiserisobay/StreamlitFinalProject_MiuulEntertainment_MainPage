@@ -6,7 +6,7 @@ import requests
 
 
 st.set_page_config(layout= 'wide', page_title = 'Miuultainment',page_icon="🤖")
-st.image(2.png)
+image('2.png')
 
 ######################################## HOME ANA BANNER BASLIK ########################################
 
