@@ -200,7 +200,7 @@ def display_activity_card(column, image, title, description, url):
         """, unsafe_allow_html=True)
 
 # Example usage
-display_activity_card(col1, airbnb_image_url, "Airbnb", "We recommend the best options to make your stay unforgettable.", "https://airbnbrecommendations.streamlit.app/")
+display_activity_card(col1, airbnb_image_url, "Airbnb", "Find the best options to make your stay unforgettable.", "https://airbnbrecommendations.streamlit.app/")
 display_activity_card(col2, movie_image_url, "Movie", "Enjoy a cinematic experience with our movie suggestions.", "https://miuulmovierecommender.streamlit.app/")
 display_activity_card(col3, book_image_url, "Book", "Find the perfect read to captivate your mind and spirit.", "https://book-recomendations.streamlit.app/")
 display_activity_card(col4, game_image_url, "Game", "Find the perfect game to keep you entertained for hours.", "https://gamerecommendations.streamlit.app/")
