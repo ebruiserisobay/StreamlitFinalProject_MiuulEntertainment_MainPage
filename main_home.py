@@ -6,7 +6,7 @@ import requests
 
 
 st.set_page_config(layout= 'wide', page_title = 'Miuultainment',page_icon="🤖")
-
+image(2.png)
 
 ######################################## HOME ANA BANNER BASLIK ########################################
 
@@ -95,7 +95,7 @@ text = ('At Miuultainment, we believe that every experience should be extraordin
         'Are you ready to embark on this adventure filled with the best recommendations? ''<br>'
         'Start exploring now! 🚀 ')
 # Tek resim dosyası veya URL
-image_path = st.image('2.png')  # Eğer dosya yolu kullanmak istiyorsanız buraya dosya yolunu girin
+image_path = '2.png'  # Eğer dosya yolu kullanmak istiyorsanız buraya dosya yolunu girin
 image_url = None  # Eğer URL kullanmak istiyorsanız buraya URL'yi girin
 
 # Resmi base64 formatına dönüştürme
